@@ -110,7 +110,7 @@ button[type='submit'] {
 }
 
 p > a {
-    color: brown;
+    color: rgb(0, 149, 255);
     text-decoration: none;
 }
 
