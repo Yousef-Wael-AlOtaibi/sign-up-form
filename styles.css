@@ -15,7 +15,7 @@ body {
     background-image: url('./markus-spiske-1LLh8k2_YFk-unsplash.jpg');
     background-repeat: no-repeat;
     height: 100vh;
-    width: 45vw;
+    width: 40vw;
 }
 
 .head {
@@ -35,9 +35,21 @@ body {
 }
 
 .sections {
-    width: 55vw;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     background-color: rgb(27, 27, 27);
     color: white;
+}
+
+.text-container {
+    padding: 3rem;
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    height: 33vh;
+    box-sizing: border-box;
+}
+
+.text-container p:nth-child(1){
+    margin-top: 2rem;
 }
