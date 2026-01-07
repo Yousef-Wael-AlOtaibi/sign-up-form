@@ -53,3 +53,26 @@ body {
 .text-container p:nth-child(1){
     margin-top: 1rem;
 }
+
+form {
+    padding: 0rem 3rem 1rem 3rem;
+    background-color: rgb(24,24,24);
+}
+
+form > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 4rem;
+    
+}
+
+form > div > div {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+form > div > div > input{
+    padding: .25rem;
+    border-radius: 5px;
+}
