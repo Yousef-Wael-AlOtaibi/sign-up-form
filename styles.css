@@ -9,9 +9,12 @@ body {
     display: flex;
     flex-direction: row;
     margin: 0;
+    font-family: sans-serif;
 }
 
 .side-bar {
+    display: flex;
+    flex-direction: column;
     background-image: url('./markus-spiske-1LLh8k2_YFk-unsplash.jpg');
     background-repeat: no-repeat;
     height: 100vh;
@@ -40,7 +43,6 @@ body {
     flex-direction: column;
     background-color: rgb(27, 27, 27);
     color: white;
-    font-family: sans-serif;
 }
 
 .text-container {
@@ -109,5 +111,23 @@ button[type='submit'] {
 
 p > a {
     color: brown;
+    text-decoration: none;
+}
+
+.sources-container {
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: .75rem;
+}
+
+.sources-container > ul{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style: none;
+}
+
+.sources-container a {
+    color: white;
     text-decoration: none;
 }
