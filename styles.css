@@ -81,4 +81,14 @@ form > div > div > label{
 form > div > div > input{
     padding: .25rem;
     border-radius: 5px;
+    border: 1px solid white;
+}
+
+form > div > div > input:invalid{
+    border-color: rgb(255, 77, 77);
+}
+
+form > div > div > input:focus{
+    border-color: rgb(0, 191, 255);
+    box-shadow: 2px 2px 2em 6px black;
 }
