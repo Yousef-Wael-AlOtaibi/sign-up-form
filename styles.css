@@ -72,6 +72,10 @@ form > div > div {
     flex-direction: column;
 }
 
+form > div > div > label{
+    margin-bottom: .3rem;
+}
+
 form > div > div > input{
     padding: .25rem;
     border-radius: 5px;
