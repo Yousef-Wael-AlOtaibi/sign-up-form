@@ -44,14 +44,14 @@ body {
 
 .text-container {
     padding: 3rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-family: sans-serif;
-    height: 33vh;
+    height: 39vh;
     box-sizing: border-box;
 }
 
 .text-container p:nth-child(1){
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
 
 form {
