@@ -1,7 +1,11 @@
 @font-face {
     font-family: 'press-start2p';
     src:
-        url(./pressstart2p-regular-webfont.woff2) format('woff2'),
-        url(./pressstart2p-regular-webfont.woff) format('woff');
+        url('./pressstart2p-regular-webfont.woff2') format('woff2'),
+        url('./pressstart2p-regular-webfont.woff') format('woff');
     font-weight: bold;
+}
+body {
+    display: flex;
+    flex-flow: column wrap;
 }
